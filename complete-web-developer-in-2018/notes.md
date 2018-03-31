@@ -8,3 +8,4 @@
 
 - Website tip for CSS: www.css-tricks.com
 - Great site for images: www.unsplash.com
+- Site for helping determine good color schemes: http://paletton.com/
