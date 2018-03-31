@@ -6,4 +6,4 @@
 
 ## Lecture 6, Section 41
 
-Website tip for CSS: css-tricks.com
+Website tip for CSS: www.css-tricks.com
