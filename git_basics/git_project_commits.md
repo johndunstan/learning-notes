@@ -40,6 +40,22 @@ Do these from the command prompt (be in appropriate folder)
 2. Select Pull Request button
 3. Fill out the form and send the pull request
 
+# Create and commit a code project from scratch
+(Mostly found at https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad)
+
+## Create the repo on GitHub
+1. Log into GitHub
+2. At the top right of any Github page, you should see a '+' icon. Click that, then select 'New Repository'.
+3. Give your repository a name--ideally the same name as your local project. If I'm building a travel application, its folder will be called 'travel-app' on my computer, and 'travel-app' will be the Github repository name as well.
+4. Click 'Create Repository'. The next screen you see will be important, so don't close it.
+
+## Connect your local work to the GitHub Repo
+1. Click the green ```Code``` button
+2. Copy the link under "Clone with HTTPS"
+3. Back in terminal in your project directory, type ```git init``` and hit enter - this creates a git file to manage builds locally
+4. Then in terminal, type ```git remote add origin {copied web address}``` and hit 'enter' - this associates that project/folder with the repo created above
+5. Push your branch to Github: ```git push origin master```
+
 # Other References
 
 https://yangsu.github.io/pull-request-tutorial/
