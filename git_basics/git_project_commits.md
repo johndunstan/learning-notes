@@ -26,7 +26,7 @@ Do these from the command prompt (be in appropriate folder)
 
 - Should see changed files in red
 
-2. `git add --all` (can all add a specific file, e.g. “git add exercises.js”)
+2. `git add --all` or `git add .` (can all add a specific file, e.g. “git add exercises.js”)
 3. `git status`
 
 - Shoud see changed files in green
