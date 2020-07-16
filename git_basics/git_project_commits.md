@@ -40,6 +40,14 @@ Do these from the command prompt (be in appropriate folder)
 2. Select Pull Request button
 3. Fill out the form and send the pull request
 
+## Merge master-changes back into a working branch
+Use either `git merge master` or `git rebase master`.
+
+Rebase makes it as if the changes on the feature branch were made on top of the changes on the master branch, which makes the version graph simpler.
+
+Further explanation found here:
+https://superuser.com/questions/224085/git-merge-master-into-a-branch
+
 # Create and commit a code project from scratch
 https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
 
